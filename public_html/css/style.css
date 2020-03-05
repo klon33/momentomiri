@@ -1,0 +1,10 @@
+.book{
+    width:80%;
+    max-width:1109px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
