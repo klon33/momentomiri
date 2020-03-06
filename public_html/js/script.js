@@ -1,10 +1,8 @@
 (function ($) {
 
-    "use strict";
-
     $('.button2').click(function (e) {
 
-        $.post("/post.php", {data: JSON.stringify(data)}, function (result) {
+        $.post("/post.php", {}, function (result) {
             $(".result").html(result);
         });
         return false;
